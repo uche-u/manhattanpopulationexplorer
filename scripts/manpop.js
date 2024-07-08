@@ -1,5 +1,5 @@
 // Public Token
-mapboxgl.accessToken = "pk.eyJ1IjoidXV3YW5ha2EiLCJhIjoiY2x4dDhiZjJqMW1kbjJscHdyajJibHlzeCJ9.aE0kwDilSf9Q666Y8nvV4g";
+mapboxgl.accessToken = "pk.eyJ1IjoidXV3YW5ha2EiLCJhIjoiY2x4dDg1dmJyMDIxejJwcHVjMzExZ3RsMiJ9.6ztzCnRVo23Gc7jT7EwFNg";
 
 // Global vars
 var vizControl = d3.select("#mode-viz");
@@ -110,7 +110,7 @@ var start_story = {
 
 var map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/citrusvanilla/cjg4nb4bw0rvm2soz2engacpi",
+  style: "mapbox://styles/uuwanaka/clyd4ezde010w01qrgwn9f05a",
   center: start_story.center,
   zoom: start_story.zoom,
   maxZoom: 15,
