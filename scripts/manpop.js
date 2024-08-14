@@ -492,7 +492,7 @@ map.on("load", function(e) {
                                                    [4000, "#a6d96a"],
                                                    [12000, "#66bd63"],
                                                    [32000, "#1a9850"]]}}}
-                , 'road-label-small');
+                );
 
   // Add DATA DIMMED layer.
   map.addLayer({"id": "stats-dimmed",
@@ -512,7 +512,7 @@ map.on("load", function(e) {
                                                    [4000, "#a6d96a"],
                                                    [12000, "#66bd63"],
                                                    [32000, "#1a9850"]]}}}
-                , 'road-label-small');
+                );
 
   // Draw sliders.
   getSliders();
